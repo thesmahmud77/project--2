@@ -181,7 +181,8 @@ nav{
     background-color: rgb(244, 244, 244);
     margin-top: 120px;
     height: auto;
-    padding: 50px 120px;
+    padding: 50px 240px;
+    text-align: left;
 }
 
 .shoes-wrapper{
@@ -221,4 +222,40 @@ nav{
 
 .btn-2nd{
     background-color: black;
+}
+
+footer{
+    background-color: white;
+    padding: 100px;
+   
+
+    
+}
+.footer-wrapper{
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 1200px;
+    /* height: 450px; */
+    background-color:rgb(255, 242, 241);
+    padding: 200px;
+    border-radius: 15px ;
+
+}
+.footer-input{
+    display: flex;
+    justify-content: center;
+   
+}
+.footer-email-input{
+    width: 420px;
+    height: 55px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.footer-btn{
+    padding: 18px 30px;
+    
 }
