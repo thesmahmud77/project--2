@@ -19,7 +19,7 @@
 
 
 .main-container{
-    max-width: 80vw;
+    max-width: 70vw;
     margin: auto;
 }
 
@@ -115,17 +115,19 @@ nav{
 
 /* Catagory */
 
-
+.catagory{
+    align-items: left;
+}
 .catagory h1{
     font-size: 36px;
     font-weight: 600;
     color: rgb(31, 31, 31);
-    margin: 65px 0 25px 0px;
+    /* margin: 65px 0 25px 0px; */
 }
 .catagory-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 
 }
@@ -169,4 +171,54 @@ nav{
     gap: 20px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
-}       
+}  
+
+
+
+/* Shoes Section Sttyle */
+
+.s-b-main-wrapper{
+    background-color: rgb(244, 244, 244);
+    margin-top: 120px;
+    height: auto;
+    padding: 50px 120px;
+}
+
+.shoes-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.shoes-wrapper p{
+    color: red;
+}
+.shoes-wrapper h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.s-b-card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.s-b-card-content{
+    background-color: white;
+    padding: 35px;
+    width: 360px;
+    border-radius: 20px;
+    box-shadow: 2px black;
+}
+
+.s-b-card-content img{
+    width: 320px;
+}.s-b-card-content h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn-2nd{
+    background-color: black;
+}
